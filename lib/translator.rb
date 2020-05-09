@@ -32,7 +32,7 @@ def get_english_meaning(file_path,
   if library.include?(japanese_emoticon)
     get_meaning = key
   else 
-    
+    "Sorry, I don't know that emoticon."
   
   end 
 end 
