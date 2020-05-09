@@ -4,6 +4,7 @@ def load_library(file_path)
   get_english = {}
   get_japanese = {}
   get_e_emoticon = {}
+  get_j_emoticon = {}
   new_hash = {}
   library = YAML.load_file(file_path)
   library.each do |keys, arrays|
@@ -13,12 +14,14 @@ def load_library(file_path)
      get_english[(arrays[0])] = keys
      get_japanese[(arrays[1])] = keys
      get_e_emoticon[(arrays[1])] = arrays[0] 
+     get_j_emoticon[(arrays[0])] = arrays[1]
       
     
   end 
       new_hash["get_english"] = get_english 
       new_hash["get_japanese"] = get_japanese
       new_hash["get_e_emoticon"] = get_e_emoticon
+      new_hash["get_j_emoticon"] = get_j_emoticon
       new_hash
 end
 
