@@ -36,7 +36,7 @@ def get_english_meaning(file_path,
   japanese_emoticon)
   library = load_library(file_path)
   if library.include?(japanese_emoticon)
-    puts library
+    puts new_hash
   else 
     puts "Sorry, that emoticon was not found."
   
