@@ -10,14 +10,14 @@ def load_library(file_path)
     # arrays.each do |emojis| 
       new_hash[keys] =  { :english => arrays[0],
       :japanese => arrays[1]}
-     # get_english[arrays[0] = keys
-     # get_japanese[keys.to_sym] = arrays[1]
+     get_english[arrays[0] = keys
+     get_japanese[arrays[1]] = keys
      # get_emoticon[emojis] = emojis
       
     
   end 
-      # new_hash["get_english"] = get_english 
-      # new_hash["get_japanese"] = get_japanese
+      new_hash["get_english"] = get_english 
+      new_hash["get_japanese"] = get_japanese
       # new_hash["get_emoticon"] = get_emoticon
       new_hash
 end
