@@ -10,8 +10,8 @@ def load_library(file_path)
     # arrays.each do |emojis| 
       new_hash[keys] =  { :english => arrays[0],
       :japanese => arrays[1]}
-     get_english[arrays[0] = keys
-     get_japanese[arrays[1]] = keys
+     get_english[(arrays[0])] = keys
+     get_japanese[(arrays[1])] = keys
      # get_emoticon[emojis] = emojis
       
     
