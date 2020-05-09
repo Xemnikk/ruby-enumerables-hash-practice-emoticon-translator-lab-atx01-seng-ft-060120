@@ -12,7 +12,7 @@ def load_library(file_path)
       :japanese => arrays[1]}
      get_english[(arrays[0])] = keys
      get_japanese[(arrays[1])] = keys
-     # get_emoticon[emojis] = emojis
+     get_emoticon[] = 
       
     
   end 
