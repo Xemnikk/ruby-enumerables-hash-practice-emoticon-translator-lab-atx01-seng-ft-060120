@@ -31,6 +31,8 @@ def get_english_meaning(file_path,
   library = load_library(file_path)
   if library.include?(japanese_emoticon)
     get_meaning = key
+  else 
+    
   
   end 
 end 
