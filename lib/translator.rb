@@ -12,13 +12,13 @@ def load_library(file_path)
       :japanese => arrays[1]}
      get_english[(arrays[0])] = keys
      get_japanese[(arrays[1])] = keys
-     get_emoticon[] = 
+     get_e_emoticon[(arrays[1])] = arrays[0] 
       
     
   end 
       new_hash["get_english"] = get_english 
       new_hash["get_japanese"] = get_japanese
-      # new_hash["get_emoticon"] = get_emoticon
+      new_hash["get_e_emoticon"] = get_e_emoticon
       new_hash
 end
 
